@@ -1,10 +1,25 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url(https://fonts.google.com/specimen/Libre+Baskerville?query=libre+);
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2094&q=80);
+    
+background-repeat: no-repeat;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+
+background-position: center center;
+    font-family: 'Libre Baskerville', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -15,6 +30,7 @@ html {
 }
 
 h1 {
+    font-family: 'Courgette', sans-serif; 
     font-weight: normal;
     margin: auto;
     background: #fff;
@@ -22,7 +38,7 @@ h1 {
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: #AEE1E1;
     overflow: auto;
 }
 
@@ -37,13 +53,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#889EAFcyan;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: #AEE1E1smoke;
+    background-color: #889EAFcyan;
     text-decoration: none;
 }
 
